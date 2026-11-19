@@ -1,0 +1,960 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "postings": 20,
+  "hn_postings": 10,
+  "errors": {},
+  "metadata_fallbacks": {},
+  "roles": {
+    "expected": 23,
+    "predicted": 24,
+    "matched": 22,
+    "precision": 0.9166666666666666,
+    "recall": 0.9565217391304348
+  },
+  "fields": {
+    "company": {
+      "correct": 22,
+      "total": 23,
+      "accuracy": 0.9565217391304348,
+      "stated_correct": 22,
+      "stated_total": 23,
+      "stated_accuracy": 0.9565217391304348
+    },
+    "title": {
+      "correct": 22,
+      "total": 23,
+      "accuracy": 0.9565217391304348,
+      "stated_correct": 22,
+      "stated_total": 23,
+      "stated_accuracy": 0.9565217391304348
+    },
+    "seniority": {
+      "correct": 22,
+      "total": 23,
+      "accuracy": 0.9565217391304348,
+      "stated_correct": 8,
+      "stated_total": 8,
+      "stated_accuracy": 1.0
+    },
+    "city": {
+      "correct": 19,
+      "total": 23,
+      "accuracy": 0.8260869565217391,
+      "stated_correct": 9,
+      "stated_total": 9,
+      "stated_accuracy": 1.0
+    },
+    "country": {
+      "correct": 22,
+      "total": 23,
+      "accuracy": 0.9565217391304348,
+      "stated_correct": 22,
+      "stated_total": 23,
+      "stated_accuracy": 0.9565217391304348
+    },
+    "remote_policy": {
+      "correct": 16,
+      "total": 23,
+      "accuracy": 0.6956521739130435,
+      "stated_correct": 13,
+      "stated_total": 15,
+      "stated_accuracy": 0.8666666666666667
+    },
+    "salary_min": {
+      "correct": 21,
+      "total": 23,
+      "accuracy": 0.9130434782608695,
+      "stated_correct": 6,
+      "stated_total": 7,
+      "stated_accuracy": 0.8571428571428571
+    },
+    "salary_max": {
+      "correct": 21,
+      "total": 23,
+      "accuracy": 0.9130434782608695,
+      "stated_correct": 6,
+      "stated_total": 7,
+      "stated_accuracy": 0.8571428571428571
+    },
+    "currency": {
+      "correct": 21,
+      "total": 23,
+      "accuracy": 0.9130434782608695,
+      "stated_correct": 3,
+      "stated_total": 4,
+      "stated_accuracy": 0.75
+    },
+    "employment_type": {
+      "correct": 21,
+      "total": 23,
+      "accuracy": 0.9130434782608695,
+      "stated_correct": 13,
+      "stated_total": 14,
+      "stated_accuracy": 0.9285714285714286
+    },
+    "skills": {
+      "correct": 10,
+      "total": 23,
+      "accuracy": 0.43478260869565216,
+      "stated_correct": 5,
+      "stated_total": 15,
+      "stated_accuracy": 0.3333333333333333
+    },
+    "visa_sponsorship": {
+      "correct": 22,
+      "total": 23,
+      "accuracy": 0.9565217391304348,
+      "stated_correct": 2,
+      "stated_total": 2,
+      "stated_accuracy": 1.0
+    },
+    "posted_date": {
+      "correct": 22,
+      "total": 23,
+      "accuracy": 0.9565217391304348,
+      "stated_correct": 12,
+      "stated_total": 13,
+      "stated_accuracy": 0.9230769230769231
+    }
+  },
+  "cost": {
+    "input_tokens": 29564,
+    "cached_input_tokens": 3072,
+    "output_tokens": 9987,
+    "provider_calls": 20,
+    "estimated_api_cost_usd": 0.0101964,
+    "estimated_api_cost_per_posting_usd": 0.00050982
+  },
+  "predictions": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50398420",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Prior Labs",
+            "title": "ML Engineer, Backend",
+            "city": "NYC",
+            "country": "NYC",
+            "remote_policy": "ONSITE",
+            "employment_type": "Full-time",
+            "visa_sponsorship": "We sponsor visas",
+            "application_url": "https://jobs.ashbyhq.com/prior-labs",
+            "posted_date": "Comment posted date: 2026-11-06",
+            "skills": "latency, batching and memory on million-row inputs, across our API"
+          },
+          "company": "Prior Labs",
+          "title": "ML Engineer, Backend",
+          "seniority": null,
+          "city": "New York",
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": [
+            "latency",
+            "batching",
+            "memory",
+            "API"
+          ],
+          "visa_sponsorship": true,
+          "posted_date": "2026-11-06",
+          "application_url": "https://jobs.ashbyhq.com/prior-labs",
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50339641",
+      "roles": [
+        {
+          "evidence": {
+            "company": "CNH",
+            "title": "AI Engineer Intern",
+            "city": "Tempe, AZ, USA",
+            "country": "USA",
+            "remote_policy": "ON-SITE",
+            "employment_type": "AI Engineer Intern",
+            "skills": "C++, Python, PyTorch/TensorFlow, ONNX, TensorRT, Git",
+            "visa_sponsorship": "Visa sponsorship is not available",
+            "application_url": "https://join.cnh.com/job/AI-Engineer-Intern/5686-en_US",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "CNH",
+          "title": "AI Engineer Intern",
+          "seniority": null,
+          "city": "Tempe",
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "intern",
+          "skills": [
+            "C++",
+            "Python",
+            "PyTorch",
+            "TensorFlow",
+            "ONNX",
+            "TensorRT",
+            "Git"
+          ],
+          "visa_sponsorship": false,
+          "posted_date": "2026-11-02",
+          "application_url": "https://join.cnh.com/job/AI-Engineer-Intern/5686-en_US",
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50346358",
+      "roles": [
+        {
+          "evidence": {
+            "company": "GovStar",
+            "title": "Data Engineer",
+            "country": "Remote (U.S. Eastern/Central Time)",
+            "remote_policy": "Remote (U.S. Eastern/Central Time)",
+            "posted_date": "Comment posted date: 2026-11-03"
+          },
+          "company": "GovStar",
+          "title": "Data Engineer",
+          "seniority": null,
+          "city": null,
+          "country": "US",
+          "remote_policy": "remote",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": null,
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-03",
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50385049",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Odette Technologies",
+            "title": "Data/ML Engineer",
+            "country": "US",
+            "remote_policy": "HYBRID (NC) / REMOTE",
+            "employment_type": "Full-time",
+            "city": "NC",
+            "skills": "Python and LLM experience preferred for the engineering roles.",
+            "posted_date": "Comment posted date: 2026-11-05"
+          },
+          "company": "Odette Technologies",
+          "title": "Data/ML Engineer",
+          "seniority": null,
+          "city": "NC",
+          "country": "US",
+          "remote_policy": "hybrid",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": [
+            "Python",
+            "LLM"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-05",
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50339294",
+      "roles": [
+        {
+          "evidence": {
+            "company": "SwingVision",
+            "title": "Machine Learning Engineer",
+            "city": "Berkeley, CA",
+            "employment_type": "Full time",
+            "country": "Berkeley, CA",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "SwingVision",
+          "title": "Machine Learning Engineer",
+          "seniority": null,
+          "city": "Berkeley",
+          "country": "US",
+          "remote_policy": null,
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": null,
+          "closure_evidence": null
+        },
+        {
+          "evidence": {
+            "company": "SwingVision",
+            "title": "Machine Learning Intern",
+            "city": "Berkeley, CA",
+            "employment_type": "Machine Learning Intern",
+            "country": "Berkeley, CA",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "SwingVision",
+          "title": "Machine Learning Intern",
+          "seniority": null,
+          "city": "Berkeley",
+          "country": "US",
+          "remote_policy": null,
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "intern",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50341662",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Reducto",
+            "title": "ML Engineer",
+            "city": "San Francisco",
+            "country": "San Francisco",
+            "employment_type": "Full-time",
+            "salary_context": "200k - 325k + Equity",
+            "application_url": "https://jobs.ashbyhq.com/reducto?utm_source=Qp0OepaMn9",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "Reducto",
+          "title": "ML Engineer",
+          "seniority": null,
+          "city": "San Francisco",
+          "country": "US",
+          "remote_policy": null,
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": "https://jobs.ashbyhq.com/reducto?utm_source=Qp0OepaMn9",
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50340551",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Helmsted",
+            "title": "Founding AI Engineer",
+            "country": "REMOTE (US)",
+            "remote_policy": "Remote in the US today",
+            "employment_type": "Full-time",
+            "salary_context": "$160K–$200K",
+            "posted_date": "Comment posted date: 2026-11-02",
+            "salary_min": "$160K–$200K",
+            "salary_max": "$160K–$200K"
+          },
+          "company": "Helmsted",
+          "title": "Founding AI Engineer",
+          "seniority": null,
+          "city": null,
+          "country": "US",
+          "remote_policy": "remote",
+          "salary_min": 160000.0,
+          "salary_max": 200000.0,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50340892",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Ledgebrook",
+            "title": "Sr Platform Engineer (AWS)",
+            "country": "REMOTE (US, Canada, Poland; eligibility varies by role)",
+            "remote_policy": "REMOTE (US, Canada, Poland; eligibility varies by role)",
+            "skills": "AWS",
+            "posted_date": "Comment posted date: 2026-11-02",
+            "application_url": "https://www.ledgebrook.com/careers",
+            "seniority": "Sr Platform Engineer (AWS)"
+          },
+          "company": "Ledgebrook",
+          "title": "Sr Platform Engineer (AWS)",
+          "seniority": "senior",
+          "city": null,
+          "country": "US",
+          "remote_policy": "remote",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": null,
+          "skills": [
+            "AWS"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": "https://www.ledgebrook.com/careers",
+          "closure_evidence": null
+        },
+        {
+          "evidence": {
+            "company": "Ledgebrook",
+            "title": "Principal Data Engineer",
+            "country": "REMOTE (US, Canada, Poland; eligibility varies by role)",
+            "remote_policy": "REMOTE (US, Canada, Poland; eligibility varies by role)",
+            "posted_date": "Comment posted date: 2026-11-02",
+            "application_url": "https://www.ledgebrook.com/careers",
+            "seniority": "Principal Data Engineer"
+          },
+          "company": "Ledgebrook",
+          "title": "Principal Data Engineer",
+          "seniority": "staff_plus",
+          "city": null,
+          "country": "US",
+          "remote_policy": "remote",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": null,
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": "https://www.ledgebrook.com/careers",
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50342858",
+      "roles": []
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50344047",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Credit Genie",
+            "title": "Senior Software Engineer, Trust Platform",
+            "country": "Philadelphia / NYC / Toronto",
+            "remote_policy": "In Office",
+            "employment_type": "Full-time",
+            "application_url": "https://jobs.ashbyhq.com/creditgenie/2385c5a6-7f15-483e-9a30-2b8f66eb4a90",
+            "skills": "AWS, Python, TypeScript/Node.js, Swift/SwiftUI, Snowflake, Kubernetes, Terraform, Datadog, SQL, AppsFlyer, Segment",
+            "seniority": "Senior Software Engineer, Trust Platform",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "Credit Genie",
+          "title": "Senior Software Engineer, Trust Platform",
+          "seniority": "senior",
+          "city": null,
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": [
+            "AWS",
+            "Python",
+            "TypeScript/Node.js",
+            "Swift/SwiftUI",
+            "Snowflake",
+            "Kubernetes",
+            "Terraform",
+            "Datadog",
+            "SQL",
+            "AppsFlyer",
+            "Segment"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": "https://jobs.ashbyhq.com/creditgenie/2385c5a6-7f15-483e-9a30-2b8f66eb4a90",
+          "closure_evidence": null
+        },
+        {
+          "evidence": {
+            "company": "Credit Genie",
+            "title": "Staff Software Engineer, Financial Platform",
+            "country": "Philadelphia / NYC / Toronto",
+            "remote_policy": "In Office",
+            "employment_type": "Full-time",
+            "application_url": "https://jobs.ashbyhq.com/creditgenie/ecff45ce-f688-4109-b545-8b3e1c47bb38",
+            "skills": "AWS, Python, TypeScript/Node.js, Swift/SwiftUI, Snowflake, Kubernetes, Terraform, Datadog, SQL, AppsFlyer, Segment",
+            "seniority": "Staff Software Engineer, Financial Platform",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "Credit Genie",
+          "title": "Staff Software Engineer, Financial Platform",
+          "seniority": "staff_plus",
+          "city": null,
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": [
+            "AWS",
+            "Python",
+            "TypeScript/Node.js",
+            "Swift/SwiftUI",
+            "Snowflake",
+            "Kubernetes",
+            "Terraform",
+            "Datadog",
+            "SQL",
+            "AppsFlyer",
+            "Segment"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": "https://jobs.ashbyhq.com/creditgenie/ecff45ce-f688-4109-b545-8b3e1c47bb38",
+          "closure_evidence": null
+        },
+        {
+          "evidence": {
+            "company": "Credit Genie",
+            "title": "Senior Platform Infrastructure Engineer",
+            "country": "Philadelphia / NYC / Toronto",
+            "remote_policy": "In Office",
+            "employment_type": "Full-time",
+            "application_url": "https://jobs.ashbyhq.com/creditgenie/5ed75275-bdf0-4f4f-89c5-6340c6cfed08",
+            "skills": "AWS, Python, TypeScript/Node.js, Swift/SwiftUI, Snowflake, Kubernetes, Terraform, Datadog, SQL, AppsFlyer, Segment",
+            "seniority": "Senior Platform Infrastructure Engineer",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "Credit Genie",
+          "title": "Senior Platform Infrastructure Engineer",
+          "seniority": "senior",
+          "city": null,
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": [
+            "AWS",
+            "Python",
+            "TypeScript/Node.js",
+            "Swift/SwiftUI",
+            "Snowflake",
+            "Kubernetes",
+            "Terraform",
+            "Datadog",
+            "SQL",
+            "AppsFlyer",
+            "Segment"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": "https://jobs.ashbyhq.com/creditgenie/5ed75275-bdf0-4f4f-89c5-6340c6cfed08",
+          "closure_evidence": null
+        },
+        {
+          "evidence": {
+            "company": "Credit Genie",
+            "title": "Senior Data Engineer",
+            "country": "Philadelphia / NYC / Toronto",
+            "remote_policy": "In Office",
+            "employment_type": "Full-time",
+            "application_url": "https://jobs.ashbyhq.com/creditgenie/b0915d2d-11f6-48d3-9148-4c3ea43283e1",
+            "skills": "AWS, Python, TypeScript/Node.js, Swift/SwiftUI, Snowflake, Kubernetes, Terraform, Datadog, SQL, AppsFlyer, Segment",
+            "seniority": "Senior Data Engineer",
+            "posted_date": "Comment posted date: 2026-11-02"
+          },
+          "company": "Credit Genie",
+          "title": "Senior Data Engineer",
+          "seniority": "senior",
+          "city": null,
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": [
+            "AWS",
+            "Python",
+            "TypeScript/Node.js",
+            "Swift/SwiftUI",
+            "Snowflake",
+            "Kubernetes",
+            "Terraform",
+            "Datadog",
+            "SQL",
+            "AppsFlyer",
+            "Segment"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": "2026-11-02",
+          "application_url": "https://jobs.ashbyhq.com/creditgenie/b0915d2d-11f6-48d3-9148-4c3ea43283e1",
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://stripe.com/jobs/search?gh_jid=8224915",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Stripe",
+            "title": "Machine Learning Engineer, Growth Platform",
+            "country": "Location: San Francisco",
+            "city": "Location: San Francisco",
+            "remote_policy": "Location: San Francisco"
+          },
+          "company": "Stripe",
+          "title": "Machine Learning Engineer, Growth Platform",
+          "seniority": null,
+          "city": "San Francisco",
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": null,
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://stripe.com/jobs/search?gh_jid=8197886",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Stripe",
+            "title": "Machine Learning Engineer, Link",
+            "country": "Location: New York City",
+            "remote_policy": "Location: New York City",
+            "city": "Location: New York City",
+            "skills": "Strong programming skills in Python and experience with common data and machine learning tools, such as SQL, Spark, and XGBoost"
+          },
+          "company": "Stripe",
+          "title": "Machine Learning Engineer, Link",
+          "seniority": null,
+          "city": "New York City",
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": null,
+          "skills": [
+            "Python",
+            "SQL",
+            "Spark",
+            "XGBoost"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://stripe.com/jobs/search?gh_jid=8333074",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Stripe",
+            "title": "Master's Machine Learning Engineer, Intern",
+            "country": "Location: San Francisco, New York City, Seattle",
+            "remote_policy": "Location: San Francisco, New York City, Seattle",
+            "employment_type": "Master's Machine Learning Engineer, Intern",
+            "skills": "Familiarity with languages such as Python, Scala, Spark and libraries such as Pandas, NumPy, and Scikit-learn."
+          },
+          "company": "Stripe",
+          "title": "Master's Machine Learning Engineer, Intern",
+          "seniority": null,
+          "city": null,
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "intern",
+          "skills": [
+            "Python",
+            "Scala",
+            "Spark",
+            "Pandas",
+            "NumPy",
+            "Scikit-learn"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://careers.airbnb.com/positions/7755758?gh_jid=7755758",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Airbnb",
+            "title": "Senior Machine Learning Engineer, Payments",
+            "country": "Location: Remote-USA",
+            "remote_policy": "Your Location: This position is US - Remote Eligible",
+            "seniority": "Senior Machine Learning Engineer, Payments",
+            "salary_context": "Pay Range $191,000 — $223,000 USD",
+            "salary_min": "Pay Range $191,000 — $223,000 USD",
+            "salary_max": "Pay Range $191,000 — $223,000 USD",
+            "currency": "Pay Range $191,000 — $223,000 USD"
+          },
+          "company": "Airbnb",
+          "title": "Senior Machine Learning Engineer, Payments",
+          "seniority": "senior",
+          "city": null,
+          "country": "US",
+          "remote_policy": "remote",
+          "salary_min": 191000.0,
+          "salary_max": 223000.0,
+          "currency": "USD",
+          "employment_type": null,
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://careers.airbnb.com/positions/8224032?gh_jid=8224032",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Airbnb",
+            "title": "Senior Staff Data Engineer, Foundational Data",
+            "country": "Location: United States",
+            "remote_policy": "Remote- USA",
+            "salary_context": "Pay Range $248,000 — $310,000 USD",
+            "skills": "SQL and Python. Scala experience is useful but not required",
+            "seniority": "Senior Staff Data Engineer, Foundational Data",
+            "salary_min": "Pay Range $248,000 — $310,000 USD",
+            "salary_max": "Pay Range $248,000 — $310,000 USD",
+            "currency": "Pay Range $248,000 — $310,000 USD"
+          },
+          "company": "Airbnb",
+          "title": "Senior Staff Data Engineer, Foundational Data",
+          "seniority": "staff_plus",
+          "city": null,
+          "country": "US",
+          "remote_policy": "remote",
+          "salary_min": 248000.0,
+          "salary_max": 310000.0,
+          "currency": "USD",
+          "employment_type": null,
+          "skills": [
+            "SQL",
+            "Python",
+            "Scala",
+            "Airflow",
+            "dimensional modeling",
+            "metric modeling",
+            "data pipelines"
+          ],
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8401114002",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Databricks",
+            "title": "Staff Machine Learning Engineer",
+            "city": "Location: San Francisco, California",
+            "country": "Location: San Francisco, California",
+            "remote_policy": "Please note we are open to employees working from our Mountain View, CA office for this position.",
+            "salary_context": "Pay Range $190,000 — $285,000 USD",
+            "seniority": "Staff Machine Learning Engineer",
+            "salary_min": "Pay Range $190,000 — $285,000 USD",
+            "salary_max": "Pay Range $190,000 — $285,000 USD",
+            "currency": "Pay Range $190,000 — $285,000 USD"
+          },
+          "company": "Databricks",
+          "title": "Staff Machine Learning Engineer",
+          "seniority": "staff_plus",
+          "city": "San Francisco",
+          "country": "US",
+          "remote_policy": "onsite",
+          "salary_min": 190000.0,
+          "salary_max": 285000.0,
+          "currency": "USD",
+          "employment_type": null,
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Figma",
+            "title": "Data Engineer Intern (2027)",
+            "employment_type": "Data Engineer Intern (2027)",
+            "salary_context": "Internship $46 — $46 USD",
+            "country": "Location: San Francisco, CA • New York, NY"
+          },
+          "company": "Figma",
+          "title": "Data Engineer Intern (2027)",
+          "seniority": null,
+          "city": null,
+          "country": "US",
+          "remote_policy": null,
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "intern",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://jobs.lever.co/palantir/1b690123-1766-4e75-a0ef-0f58afa864b4",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Palantir",
+            "title": "Data Engineer - Talent Acquisition Operations",
+            "city": "location: New York, NY",
+            "country": "location: New York, NY",
+            "remote_policy": "Workplace type: hybrid",
+            "employment_type": "commitment: Full-time",
+            "salary_context": "salary range for this position is estimated to be $100,000 - $145,000/year",
+            "salary_min": "salary range for this position is estimated to be $100,000 - $145,000/year",
+            "salary_max": "salary range for this position is estimated to be $100,000 - $145,000/year"
+          },
+          "company": "Palantir",
+          "title": "Data Engineer - Talent Acquisition Operations",
+          "seniority": null,
+          "city": "New York",
+          "country": "US",
+          "remote_policy": "hybrid",
+          "salary_min": 100000.0,
+          "salary_max": 145000.0,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://jobs.lever.co/palantir/721fe5ca-73b8-4223-826e-93a528194821",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Palantir",
+            "title": "Platform Engineer - Identity Infrastructure",
+            "city": "location: Palo Alto, CA",
+            "country": "location: Palo Alto, CA",
+            "remote_policy": "Workplace type: hybrid",
+            "employment_type": "commitment: Full-time",
+            "salary_context": "salary range for this position is estimated to be $135,000 - $200,000/year",
+            "salary_min": "salary range for this position is estimated to be $135,000 - $200,000/year",
+            "salary_max": "salary range for this position is estimated to be $135,000 - $200,000/year"
+          },
+          "company": "Palantir",
+          "title": "Platform Engineer - Identity Infrastructure",
+          "seniority": null,
+          "city": "Palo Alto",
+          "country": "US",
+          "remote_policy": "hybrid",
+          "salary_min": 135000.0,
+          "salary_max": 200000.0,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    },
+    {
+      "url": "https://jobs.lever.co/spotify/05b8d6ee-0773-4255-b8b9-ae73d74a5ee5",
+      "roles": [
+        {
+          "evidence": {
+            "company": "Spotify",
+            "title": "Senior Machine Learning Engineer, Personalization",
+            "seniority": "Senior Machine Learning Engineer, Personalization",
+            "city": "location: New York, NY",
+            "country": "location: New York, NY",
+            "remote_policy": "Workplace type: remote",
+            "employment_type": "commitment: Permanent"
+          },
+          "company": "Spotify",
+          "title": "Senior Machine Learning Engineer, Personalization",
+          "seniority": "senior",
+          "city": "New York",
+          "country": "US",
+          "remote_policy": "remote",
+          "salary_min": null,
+          "salary_max": null,
+          "currency": null,
+          "employment_type": "full_time",
+          "skills": null,
+          "visa_sponsorship": null,
+          "posted_date": null,
+          "application_url": null,
+          "closure_evidence": null
+        }
+      ]
+    }
+  ]
+}

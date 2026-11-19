@@ -19,13 +19,14 @@ Chromium provides JavaScript rendering for pages that need it. For setup without
 
 ### Live extraction
 
-Use either the hosted OpenAI model or local Ollama. For the hosted model, set your own `OPENAI_API_KEY` in the shell:
+The submission uses GPT-OSS 120B through the Groq API. Set `GROQ_API_KEY` in your shell, then run:
 
 ```sh
-export OPENAI_API_KEY="your-key"
-python -m pipeline run
-python -m pipeline evaluate
+python -m pipeline run --groq
+python -m pipeline evaluate --groq --output data/evaluation-groq.json
 ```
+
+The OpenAI API is also supported. Set `OPENAI_API_KEY` and omit `--groq` to use GPT-5.4 nano.
 
 For local inference, start [Ollama](https://ollama.com/) and prepare the model from the repository's `evaluation/Modelfile`:
 
@@ -36,9 +37,19 @@ python -m pipeline run --ollama
 python -m pipeline evaluate --ollama
 ```
 
-The run writes `data/jobs.sqlite` and `data/jobs.csv`. The included CSV contains 119 open US jobs from 19 companies. The latest live refresh preserved all 118 existing IDs and added one Palantir listing. Replaying the repaired listings preserved the new ID and added no rows or change-history entries.
+The run writes `data/jobs.sqlite` and `data/jobs.csv`. The included CSV is the verified Ollama snapshot of 119 open US jobs from 19 companies. The latest live refresh preserved all 118 existing IDs and added one Palantir listing. Replaying the repaired listings preserved the new ID and added no rows or change-history entries.
 
-The [evaluation](evaluation/results.json) uses the same 20 source postings, including 10 HN comments. Labels were transcribed with Codex before scoring. Single roles are compared directly, and multi-role comments are paired by normalized title. Skills use exact case-insensitive set matching. On the rerun, 18 of 23 roles paired with a prediction, up from 15. Accuracy on stated values went from 0/9 to 8/9 for city and from 1/7 to 6/7 for each salary endpoint. Explicit ATS facts recovered two listings whose model responses failed validation. Ollama incurred $0 in API fees.
+Both benchmarks use the same 20 labeled postings, including 10 HN comments. The linked reports include field-level accuracy and cost per posting. For multi-role comments, predictions are paired by normalized title. Skills use exact case-insensitive set matching.
+
+| Metric | [Groq GPT-OSS 120B](evaluation/results-groq.json) | [Ollama Qwen3.5 4B](evaluation/results.json) |
+| --- | ---: | ---: |
+| Roles matched | 22/23 | 18/23 |
+| Role precision | 91.7% | 100% |
+| Correct city when stated | 9/9 | 8/9 |
+| Correct salary bounds when stated | 6/7 each | 6/7 each |
+| Estimated API cost per posting | $0.00051 | $0 |
+
+Groq's estimated API cost was $0.0102 for the benchmark at published rates. Both runs completed without extraction errors.
 
 ## Design
 
@@ -48,6 +59,6 @@ Reconciliation uses stable source IDs and conservative cross-source matching. Co
 
 **What breaks first.** Chromium renders HTML when the expected selector is missing. Browser resource requests still use robots rules, pacing, and the raw cache. This fallback supports same-origin GET resources. An unexpected Lever HTML response fails that JSON board refresh. Title variations and weak location text can cause missed jobs or duplicates. The evidence check verifies the source excerpt and the evaluation surfaces interpretation errors. Salary and location have one canonical value or range, so multiple incompatible regions remain in source evidence.
 
-**At 5,000 sources per week.** Schedule by domain with bounded concurrency, store compressed raw bodies with retention, and index matching by normalized company. Preserve per-source refresh state and retry only failed work. At 50 eligible candidates per source and 10% changed per week, 25,000 extraction calls at 1,800 input and 350 output tokens would cost about **$20/week** at the modeled GPT-5.4 nano rates, before provider caching discounts. Verify the change rate and token mix from run logs before sizing the refresh. [Model pricing](https://developers.openai.com/api/docs/models/gpt-5.4-nano)
+**At 5,000 sources per week.** Schedule by domain with bounded concurrency, store compressed raw bodies with retention, and index matching by normalized company. Preserve per-source refresh state and retry only failed work. At 50 eligible candidates per source and 10% changed per week, 25,000 extraction calls at 1,800 input and 350 output tokens would cost about **$12/week** at the Groq GPT-OSS 120B rates, before provider caching discounts. Verify the change rate and token mix from run logs before sizing the refresh. [Model pricing](https://console.groq.com/docs/model/openai/gpt-oss-120b)
 
-**AI tools.** Codex assisted with design, code, tests, and source annotation. The extraction backend is GPT-5.4 nano via OpenAI, or Qwen3.5 4B via Ollama for local runs.
+**AI tools.** Codex assisted with design, code, tests, and source annotation. The submission benchmark uses GPT-OSS 120B via Groq, with a Qwen3.5 4B baseline via Ollama.

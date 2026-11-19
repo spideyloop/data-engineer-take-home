@@ -16,6 +16,8 @@ from .export import export_csv
 from .extract import (
     DEFAULT_MODEL,
     DEFAULT_RATES,
+    GROQ_MODEL,
+    GROQ_RATES,
     OLLAMA_MODEL,
     Extractor,
     should_extract,
@@ -104,7 +106,11 @@ def main() -> int:
         "evaluate", help="measure extraction against frozen labels"
     )
     for command in (refresh, score):
-        command.add_argument(
+        providers = command.add_mutually_exclusive_group()
+        providers.add_argument(
+            "--groq", action="store_true", help="use the Groq API (GROQ_API_KEY)"
+        )
+        providers.add_argument(
             "--ollama",
             action="store_true",
             help="use local Ollama instead of the OpenAI API",
@@ -117,7 +123,18 @@ def main() -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     logging.getLogger("httpx").setLevel(logging.WARNING)
 
-    if args.ollama:
+    if args.groq:
+        api_key = os.environ.get("GROQ_API_KEY")
+        if not api_key:
+            parser.error("set GROQ_API_KEY to use --groq")
+        provider = {
+            "api_key": api_key,
+            "base_url": "https://api.groq.com/openai/v1",
+            "model": GROQ_MODEL,
+            "rates": GROQ_RATES,
+            "groq": True,
+        }
+    elif args.ollama:
         provider = {
             "api_key": "ollama",
             "base_url": "http://127.0.0.1:11434/v1",
@@ -128,7 +145,7 @@ def main() -> int:
     else:
         api_key = os.environ.get("OPENAI_API_KEY")
         if not api_key:
-            parser.error("set OPENAI_API_KEY or run with --ollama")
+            parser.error("set OPENAI_API_KEY or choose --groq or --ollama")
         provider = {"api_key": api_key, "model": DEFAULT_MODEL, "rates": DEFAULT_RATES}
     db_path = args.db or Path(
         "data/jobs.sqlite" if args.command == "run" else "data/evaluation.sqlite"

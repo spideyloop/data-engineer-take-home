@@ -3,6 +3,7 @@
 import hashlib
 import logging
 import re
+import time
 from datetime import date
 from typing import Literal
 from urllib.parse import urlsplit
@@ -22,6 +23,8 @@ DEFAULT_MODEL = "gpt-5.4-nano"
 DEFAULT_RATES = (0.20, 1.25, 0.02)  # USD per million input, output, cached input tokens
 OUTPUT_TOKENS = 3500
 ATS_OUTPUT_TOKENS = 1200
+GROQ_MODEL = "openai/gpt-oss-120b"
+GROQ_RATES = (0.15, 0.60, 0.075)  # USD per million input, output, cached input tokens
 OLLAMA_MODEL = "takehome-qwen35:latest"
 ROLE_HINT = re.compile(
     r"\b(?:data|ml|machine learning|analytics|platform|ai|mlops|llm|etl)\b",
@@ -367,6 +370,7 @@ class Extractor:
         base_url: str = "https://api.openai.com/v1",
         rates: tuple[float, float, float] = DEFAULT_RATES,
         ollama: bool = False,
+        groq: bool = False,
     ):
         self.store = store
         self.client = client
@@ -375,6 +379,7 @@ class Extractor:
         self.url = base_url.rstrip("/") + "/chat/completions"
         self.rates = rates
         self.ollama = ollama
+        self.groq = groq
         self.input_tokens = 0
         self.output_tokens = 0
         self.cached_tokens = 0
@@ -393,15 +398,25 @@ class Extractor:
 
     def _request(self, request: dict) -> dict:
         self.calls += 1
-        response = (
-            self.client.post(
+        max_retries = 3 if self.groq else 0
+        for attempt in range(max_retries + 1):
+            reply = self.client.post(
                 self.url,
                 json=request,
                 headers={"Authorization": f"Bearer {self.api_key}"},
             )
-            .raise_for_status()
-            .json()
-        )
+            retry_after = reply.headers.get("retry-after")
+            if reply.status_code != 429 or not retry_after or attempt == max_retries:
+                break
+            try:
+                delay = float(retry_after)
+            except ValueError:
+                break
+            if not 0 <= delay <= 60:
+                break
+            LOG.info("Groq rate limit reached; retrying in %.0f seconds", delay)
+            time.sleep(max(2, delay))
+        response = reply.raise_for_status().json()
         usage = response["usage"]
         self.input_tokens += usage["prompt_tokens"]
         self.output_tokens += usage["completion_tokens"]
@@ -428,6 +443,8 @@ class Extractor:
             "response_format": {"type": "json_object"},
             "max_completion_tokens": OUTPUT_TOKENS,
         }
+        if self.groq:
+            request["reasoning_effort"] = "low"
         if self.ollama:
             request["max_tokens"] = request.pop("max_completion_tokens")
             request["temperature"] = 0
