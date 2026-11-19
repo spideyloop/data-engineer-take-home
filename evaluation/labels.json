@@ -1,0 +1,557 @@
+[
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50398420",
+      "url": "https://news.ycombinator.com/item?id=50398420",
+      "text": "Prior Labs | Berlin, Freiburg, NYC | ONSITE | Full-time | https://priorlabs.ai We build foundation models for tables. TabPFN takes your whole dataset as context and predicts in one forward pass - no training, no tuning - after pre-training only on synthetic data from causal priors. TabPFN v2 was a Nature cover; the open models have 4M+ downloads and run in production from liquid biopsy to rail maintenance. Since July we're an independent lab inside SAP with €1B+ over four years; models stay open-weight and research stays public. We're hiring engineers: Infrastructure Engineer - multi-cluster GPU training on Slurm, GCP today and more providers in 2027. The compute budget is tens of millions a year, and you own it. ML Engineer, Backend - own inference end to end: latency, batching and memory on million-row inputs, across our API, customer VPCs and open weights. Full Stack Developer - the product where data scientists, agents and our models meet. TypeScript/React + Python/FastAPI. Also hiring: Research Scientists and Research Engineers (Foundation Model), Applied Scientist (NYC), PhD research interns, GTM and ops roles. We sponsor visas and help with relocation. ~45 people, led by Frank Hutter, advised by Yann LeCun and Bernhard Schölkopf. https://jobs.ashbyhq.com/prior-labs\nhttps://priorlabs.ai\nhttps://jobs.ashbyhq.com/prior-labs\nComment posted date: 2026-11-06",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Prior Labs",
+        "title": "ML Engineer, Backend",
+        "country": "US",
+        "remote_policy": "onsite",
+        "employment_type": "full_time",
+        "visa_sponsorship": true,
+        "posted_date": "2026-11-06"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50339641",
+      "url": "https://news.ycombinator.com/item?id=50339641",
+      "text": "CNH | AI Engineer Intern | Tempe, AZ, USA | ON-SITE | Summer internship (40 hours/week, May–August) Work on autonomy and precision agriculture, applying AI, machine learning, and computer vision to real-world agricultural problems. You'll help develop, evaluate, and deploy models alongside our engineering team. Stack: C++, Python, PyTorch/TensorFlow, ONNX, TensorRT, Git. We're looking for strong programming skills and a solid understanding of ML fundamentals. You must be a current college student actively pursuing a degree. Visa sponsorship is not available. Apply: https://join.cnh.com/job/AI-Engineer-Intern/5686-en_US\nhttps://join.cnh.com/job/AI-Engineer-Intern/5686-en_US\nComment posted date: 2026-11-02",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "CNH",
+        "title": "AI Engineer Intern",
+        "city": "Tempe",
+        "country": "US",
+        "remote_policy": "onsite",
+        "employment_type": "intern",
+        "skills": [
+          "C++",
+          "Python",
+          "PyTorch",
+          "TensorFlow",
+          "ONNX",
+          "TensorRT",
+          "Git"
+        ],
+        "visa_sponsorship": false,
+        "posted_date": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50346358",
+      "url": "https://news.ycombinator.com/item?id=50346358",
+      "text": "GovStar | https://govstar.us | Remote (U.S. Eastern/Central Time) | Security Engineer + Data Engineer | U.S. Citizens GovStar is hiring two talented, mission-focused, courageous engineers to build and protect mission-critical data, AI, and analytics capabilities supporting U.S. national security missions. Security Engineer — Design, implement, and operate security controls across applications, data platforms, cloud infrastructure, and DevSecOps workflows. Strong experience with IAM/RBAC, encryption, SIEM/logging, vulnerability management, incident response, ATO/continuous monitoring, NIST 800-53, FedRAMP/FISMA, and Azure/AWS/GCP required. Data Engineer — Build and modernize data pipelines, integrations, and architectures across source systems, warehouses, and future lakehouse environments. Strong Python, SQL/PostgreSQL, CI/CD, Git, and data architecture experience required; Docker, Snowflake, Databricks, AWS/Azure preferred. Both roles require: U.S. citizenship • Must reside in U.S. in Eastern or Central Time Zone • Ability to obtain DHS Public Trust • BA/BS + at least 7 years relevant experience. Compensation varies by experience and qualifications. Benefits include medical, dental, vision, 401(k) matching, PTO, and an employee shares program. To apply, email your resume and GitHub profile to nicholas.hanson@govstar.us. Please mention “Hacker News” and the role in the subject line.\nhttps://govstar.us\nComment posted date: 2026-11-03",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "GovStar",
+        "title": "Data Engineer",
+        "country": "US",
+        "remote_policy": "remote",
+        "skills": [
+          "Python",
+          "SQL",
+          "PostgreSQL",
+          "Git",
+          "Docker",
+          "Snowflake",
+          "Databricks",
+          "AWS",
+          "Azure"
+        ],
+        "posted_date": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50385049",
+      "url": "https://news.ycombinator.com/item?id=50385049",
+      "text": "Odette Technologies | Senior Integration Engineer, Data/ML Engineer, Product Lead | HYBRID (NC) / REMOTE | Full-time | US citizens, clearable, East Coast-based | https://odettetechnologies.com We're building an AI-powered situational awareness platform for intelligence and information operations teams, helping analysts and decision-makers make sense of overwhelming open and closed source data. Small, operator-founded team. All three are first hires in their function. You'll work on hard problems: entity resolution across messy multilingual text, taking prototypes to production, and building product for defense and intel users. Python and LLM experience preferred for the engineering roles. Apply: careers@odettetechnologies.com with \"HN\" and the role in the subject line. Full descriptions on our site.\nhttps://odettetechnologies.com\nComment posted date: 2026-11-05",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Odette Technologies",
+        "title": "Data/ML Engineer",
+        "country": "US",
+        "employment_type": "full_time",
+        "skills": [
+          "Python",
+          "LLM"
+        ],
+        "posted_date": "2026-11-05"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50339294",
+      "url": "https://news.ycombinator.com/item?id=50339294",
+      "text": "SwingVision | Berkeley, CA | Full time + Internships SwingVision uses computer vision to turn a single phone camera into an automated stats, highlights, and line-calling system for tennis, pickleball, and padel. Models run on-device in real time, and the app won an Apple Design Award for Innovation. We're growing the ML and product teams. - Head of Machine Learning: https://jobs.deel.com/swingvision/job-details/c2cc0f23-3e59-... - Machine Learning Engineer: https://jobs.deel.com/swingvision/job-details/cc271cef-58f7-... - Head of Product: https://jobs.deel.com/swingvision/job-details/cb631dcb-1a80-... - Machine Learning Intern: https://jobs.deel.com/swingvision/job-details/0597eeac-eded-... - Data Labeling Intern: https://app.deel.com/job-boards/swingvision/job-details/a9a7...\nhttps://jobs.deel.com/swingvision/job-details/c2cc0f23-3e59-4c03-849e-d53e7567a3fd/overview\nhttps://jobs.deel.com/swingvision/job-details/cc271cef-58f7-45f5-9f1e-f8df9646fb9f/overview\nhttps://jobs.deel.com/swingvision/job-details/cb631dcb-1a80-4678-ab29-0ec2853c5ee4/overview\nhttps://jobs.deel.com/swingvision/job-details/0597eeac-eded-4d42-80de-5a109862c642/overview\nhttps://app.deel.com/job-boards/swingvision/job-details/a9a74832-e3a2-4167-b289-b67594fd93d1\nComment posted date: 2026-11-02",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "SwingVision",
+        "title": "Machine Learning Engineer",
+        "city": "Berkeley",
+        "country": "US",
+        "employment_type": "full_time",
+        "posted_date": "2026-11-02"
+      },
+      {
+        "company": "SwingVision",
+        "title": "Machine Learning Intern",
+        "city": "Berkeley",
+        "country": "US",
+        "employment_type": "intern",
+        "posted_date": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50341662",
+      "url": "https://news.ycombinator.com/item?id=50341662",
+      "text": "Reducto | Multiple Engineering Roles | San Francisco | ONSITE | Full-time | 200k - 325k + Equity | https://reducto.ai Reducto is the agentic document platform for leading AI teams who need enterprise performance at scale. Most of the world's important information is locked in documents: PDFs, spreadsheets, scanned forms, financial filings. We build the infrastructure that lets AI read and work with them the way a human would, combining custom in-house models with leading frontier models to power accurate, efficient document workflows. Our customers include AI teams like Harvey, Vanta, and Scale, along with enterprises across FAANG and top trading firms. We've grown revenue 8x year over year, partnered with hundreds of companies, and raised over $100M from a16z, Benchmark, and First Round Capital. We're still a small team, so every engineer has outsized ownership. You'll work directly with customers and leadership, ship quickly, and solve hard problems across ML, infrastructure, and product that directly shape how AI systems understand the world's documents. We're in person in SF, with free daily lunch, unlimited PTO, generous health coverage, transportation reimbursement, and a monthly wellness budget. Open roles: - Forward Deployed Engineer - Product Engineer - ML Engineer - Head of Product Engineering - Many More! Apply here: [ https://jobs.ashbyhq.com/reducto?utm_source=Qp0OepaMn9 ]\nhttps://reducto.ai\nhttps://jobs.ashbyhq.com/reducto?utm_source=Qp0OepaMn9\nComment posted date: 2026-11-02",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Reducto",
+        "title": "ML Engineer",
+        "city": "San Francisco",
+        "country": "US",
+        "remote_policy": "onsite",
+        "salary_min": 200000.0,
+        "salary_max": 325000.0,
+        "employment_type": "full_time",
+        "posted_date": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50340551",
+      "url": "https://news.ycombinator.com/item?id=50340551",
+      "text": "Helmsted | Founding AI Engineer | REMOTE (US) | Full-time | $160K–$200K + equity | https://helmsted.ai/careers Helmsted is the AI-native operating system for wealth advisors of complex households: planning, tax and estate analysis, meetings and the client portal, run by agents that do the work. Small team, live with pilot firms, shipping daily. You'd build the agents and the intelligence behind them with our CTO: evals and systems that improve from their own usage, long-term memory, retrieval over millions of documents, model routing and cost, and secure, permissioned access to client data. Fintech experience is a plus, not a requirement. Remote in the US today, with eventual relocation as the team centralizes. Paid sick leave; health insurance and 401(k) under discussion. Applications accepted on an ongoing basis. To apply, email careers@helmsted.ai with a resume and short answers to the questions in the full JD: https://helmsted.ai/careers/helmsted-founding-ai-engineer.pd...\nhttps://helmsted.ai/careers\nhttps://helmsted.ai/careers/helmsted-founding-ai-engineer.pdf\nComment posted date: 2026-11-02",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Helmsted",
+        "title": "Founding AI Engineer",
+        "country": "US",
+        "remote_policy": "remote",
+        "salary_min": 160000.0,
+        "salary_max": 200000.0,
+        "employment_type": "full_time",
+        "posted_date": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50340892",
+      "url": "https://news.ycombinator.com/item?id=50340892",
+      "text": "Ledgebrook | Engineering, Product & Data | REMOTE (US, Canada, Poland; eligibility varies by role) | https://www.ledgebrook.com/careers Hi HN, I'm Nathan, CTO at Ledgebrook. We're a Series D tech-enabled insurance company building technology for our internal user base. Our engineers work directly with other departments, so they see the impact of each product release firsthand. We're hiring for the following remote roles: Director of Engineering (US or Canada) Staff Engineer (US or Canada) Full Stack Engineer (US, Canada, or POland) Sr Platform Engineer (AWS) (US or Canada) Principal Data Engineer (US, Canada or Poland) Product Manager - Underwriting Operations (Poland) We value clear ownership, direct communication, and giving people room to get things done without micromanagement. Employees share in the company's success through ownership. Full descriptions and applications: https://www.ledgebrook.com/careers Questions: hiring@ledgebrook.com\nhttps://www.ledgebrook.com/careers\nhttps://www.ledgebrook.com/careers\nComment posted date: 2026-11-02",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Ledgebrook",
+        "title": "Senior Platform Engineer (AWS)",
+        "seniority": "senior",
+        "country": "US",
+        "remote_policy": "remote",
+        "skills": [
+          "AWS"
+        ],
+        "posted_date": "2026-11-02"
+      },
+      {
+        "company": "Ledgebrook",
+        "title": "Principal Data Engineer",
+        "seniority": "staff_plus",
+        "country": "US",
+        "remote_policy": "remote",
+        "posted_date": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50342858",
+      "url": "https://news.ycombinator.com/item?id=50342858",
+      "text": "Apply here: https://tally.so/r/BzrbN7?source=hn Consumer Physical AI (stealth, robotics) | Mechatronics Engineer, AI Engineer | California / REMOTE (US) | Full-time Early-stage startup building a robot for the home, on real hardware with ROS 2. You'd be one of the first engineers. Mechatronics Engineer: actuators, motor control, embedded firmware, fast prototyping on a multi-axis arm. AI Engineer: perception and calibration on physical hardware, deploying models to on-device compute.\nhttps://tally.so/r/BzrbN7?source=hn\nComment posted date: 2026-11-02",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Consumer Physical AI",
+        "title": "AI Engineer",
+        "country": "US",
+        "remote_policy": "remote",
+        "employment_type": "full_time",
+        "skills": [
+          "ROS 2"
+        ],
+        "posted_date": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "hn:50338728",
+      "listing_id": "50344047",
+      "url": "https://news.ycombinator.com/item?id=50344047",
+      "text": "Credit Genie | Philadelphia / NYC / Toronto | Full-time | In Office | https://www.creditgenie.com * Hyper-growth Series B startup with a proven market fit (since Series A). * CEO has 2 previous exits, his most recent to PayPal in 2017. * Backed by PayPal & Legendary Silicon Valley Investor, Khosla. * Leadership team are industry veterans previously at PayPal, CashApp & Block. We're building a mobile-first financial wellness platform to help millions of consumers take control of their financial futures. Backed by Khosla Ventures and PayPal Ventures, we're using technology and AI to expand access to financial tools, from instant cash advances to credit building and personalized financial insights. We're looking for engineers who like greenfield opportunities, want to build, own, and make an impact. Senior Software Engineer, Trust Platform: https://jobs.ashbyhq.com/creditgenie/2385c5a6-7f15-483e-9a30... Staff Software Engineer, Financial Platform: https://jobs.ashbyhq.com/creditgenie/ecff45ce-f688-4109-b545... Staff iOS Engineer: https://jobs.ashbyhq.com/creditgenie/1fe564fe-dd61-4a39-91a5... Senior iOS Engineer: https://jobs.ashbyhq.com/creditgenie/795942c9-50fc-4fcd-bdfd... Senior Platform Infrastructure Engineer: https://jobs.ashbyhq.com/creditgenie/5ed75275-bdf0-4f4f-89c5... Senior Data Engineer: https://jobs.ashbyhq.com/creditgenie/b0915d2d-11f6-48d3-9148... Martech / Growth Engineer: https://jobs.ashbyhq.com/creditgenie/b0915d2d-11f6-48d3-9148... Tech stack: AWS, Python, TypeScript/Node.js, Swift/SwiftUI, Snowflake, Kubernetes, Terraform, Datadog, SQL, AppsFlyer, Segment, etc. All open roles: https://jobs.ashbyhq.com/creditgenie\nhttps://www.creditgenie.com\nhttps://jobs.ashbyhq.com/creditgenie/2385c5a6-7f15-483e-9a30-2b8f66eb4a90\nhttps://jobs.ashbyhq.com/creditgenie/ecff45ce-f688-4109-b545-8b3e1c47bb38\nhttps://jobs.ashbyhq.com/creditgenie/1fe564fe-dd61-4a39-91a5-9db697c0b35c\nhttps://jobs.ashbyhq.com/creditgenie/795942c9-50fc-4fcd-bdfd-7c0c46488beb\nhttps://jobs.ashbyhq.com/creditgenie/5ed75275-bdf0-4f4f-89c5-6340c6cfed08\nhttps://jobs.ashbyhq.com/creditgenie/b0915d2d-11f6-48d3-9148-4c3ea43283e1\nhttps://jobs.ashbyhq.com/creditgenie/b0915d2d-11f6-48d3-9148-4c3ea43283e1\nhttps://jobs.ashbyhq.com/creditgenie\nComment posted date: 2026-11-02",
+      "title": "",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Credit Genie",
+        "title": "Senior Platform Infrastructure Engineer",
+        "seniority": "senior",
+        "country": "US",
+        "remote_policy": "onsite",
+        "employment_type": "full_time",
+        "posted_date": "2026-11-02"
+      },
+      {
+        "company": "Credit Genie",
+        "title": "Senior Data Engineer",
+        "seniority": "senior",
+        "country": "US",
+        "remote_policy": "onsite",
+        "employment_type": "full_time",
+        "posted_date": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "greenhouse:stripe",
+      "listing_id": "8224915",
+      "url": "https://stripe.com/jobs/search?gh_jid=8224915",
+      "text": "Company: Stripe\nTitle: Machine Learning Engineer, Growth Platform\nLocation: San Francisco\nWho we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Growth Platform builds the machine learning systems that help businesses discover and use the Stripe products that meet their needs. Our recommendations reach users across the Dashboard, email, onboarding, documentation, and AI agent interfaces. We combine an understanding of each business with models that decide which recommendation is useful, when to show it, and how to learn from the outcome. Our work spans recommendation and ranking models, contextual bandits, agent-based recommendations, and the data and evaluation systems behind them. We build shared capabilities that product, marketing, and sales teams can use across Stripe. Success means helping businesses take useful actions and adopt products that help them grow, while keeping recommendations relevant and avoiding unnecessary messages. What you’ll do You will build and operate production ML systems that improve how Stripe recommends products, content, and next steps to businesses. You will own work from problem definition and feature development through training, evaluation, deployment, monitoring, and iteration. Working with data scientists, engineers, and product partners, you will turn model improvements into measurable user and business outcomes. Responsibilities Design, train, evaluate, deploy, and maintain models for recommendation, ranking, and personalized action selection across Growth Platform surfaces. Improve contextual bandit and policy-learning approaches, including exploration, reward design, and how recommendations adapt to user context and feedback. Build agent-based recommendation capabilities that use business context to identify relevant products and integration options, with evaluations that test recommendation quality and usefulness. Develop reliable data and feature pipelines for training and inference. Improve data freshness, feature quality, and consistency between training and production. Build reusable tooling for model evaluation, retraining, and safe rollout so the team can test and ship improvements faster. Own the quality and operation of the team's ML components: write tested production code, monitor models and pipelines, investigate failures, and improve reliability, latency, and cost. Design and analyze online experiments with data science partners. Connect offline evaluation to product adoption and incremental impact, with guardrails for dismissals, unsubscribes, and user experience. Partner with product engineering to integrate models into recommendation delivery systems, and with ML infrastructure teams to use and improve Stripe's shared training, feature, and serving capabilities. Work with product, marketing, and sales partners to identify problems that shared ML capabilities can solve, and make practical choices about where modeling adds value. Who you are You are a machine learning engineer with a builder mindset. You care about the business problem, the quality of the model, and what happens after it ships. You can move between modeling and software engineering, make practical tradeoffs, and take ownership of an ambiguous problem through production and measurement. We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements 3+ years of industry experience in machine learning engineering, software engineering, or applied data science, with hands-on experience building and shipping ML models in production. Strong programming skills in Python and experience writing maintainable, tested production code. Practical experience designing, training, and evaluating ML models using frameworks such as PyTorch, TensorFlow, XGBoost, or scikit-learn. Experience building data or feature pipelines, proficiency in SQL, and familiarity with distributed data processing tools such as Spark or PySpark. A strong understanding of statistics, model evaluation, and experimentation, including the ability to recognize data leakage and distinguish offline model improvements from business impact. Experience deploying, monitoring, and debugging production ML systems, and evaluating tradeoffs among model quality, reliability, latency, and cost. Ability to turn an open-ended business problem into a technical approach and collaborate effectively with engineering, data science, product, and business partners. Preferred qualifications Experience with recommendation systems, ranking, personalization, or marketplace and advertising optimization. Experience with contextual bandits, policy learning, causal inference, or off-policy evaluation. Experience building and evaluating LLM applications, including structured extraction, embeddings, or recommendations grounded in user and business context. Experience building reusable ML capabilities used by multiple products or teams, including training automation, feature systems, or model monitoring. Experience with product growth, lifecycle messaging, or systems that balance short-term engagement with longer-term user outcomes.",
+      "title": "Machine Learning Engineer, Growth Platform",
+      "requisition": "See Opening ID"
+    },
+    "roles": [
+      {
+        "company": "Stripe",
+        "title": "Machine Learning Engineer, Growth Platform",
+        "city": "San Francisco",
+        "country": "US",
+        "skills": [
+          "Python",
+          "PyTorch",
+          "TensorFlow",
+          "XGBoost",
+          "scikit-learn",
+          "SQL",
+          "Spark",
+          "PySpark"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "greenhouse:stripe",
+      "listing_id": "8197886",
+      "url": "https://stripe.com/jobs/search?gh_jid=8197886",
+      "text": "Company: Stripe\nTitle: Machine Learning Engineer, Link\nLocation: New York City \nWho we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team Link is a digital wallet designed for fast and secure online payments. It allows consumers to save and use their preferred payment methods across the Link network, helping them check out quickly and securely wherever Link is accepted. The Link Fraud and Auth team works to make Link the most trusted and highest-performing way to pay. We protect consumers and merchants from fraud, abuse, and financial loss while maximizing authorization rates for good users. Our work spans consumer-facing experiences, payment infrastructure, and ML powered risk systems. We manage fraud and financial risk across a growing range of novel Link features, including Link’s agentic wallet, stored balance, and LPMs. The team also owns Instant Bank Payments, a proprietary payment method built on ACH rails, offering merchants immediate confirmation while protecting them from bank-initiated returns. IBP is the heart of Link’s revenue engine, giving LFA engineers the opportunity to shape and scale one of Link’s most important products. What you’ll do As a machine learning engineer on Link Fraud and Auth, you’ll build and operate models and risk decisioning systems that protect Link while helping more legitimate payments succeed. You’ll work across the full machine learning lifecycle, from analyzing fraud patterns and identifying opportunities to building, deploying, monitoring, and improving models in production. You’ll use data to form hypotheses, make practical modeling choices, and define technical direction in partnership with Engineering, Product, and Data Science. Your work will directly influence Link’s fraud performance, authorization rates, and ability to expand into new products and payment experiences. Responsibilities Build, train, evaluate, deploy, and own machine learning models that detect fraud and abuse across Link. Use large-scale datasets to investigate emerging threats, develop hypotheses, and identify opportunities to improve payment performance. Develop pragmatic machine learning solutions, including tree-based models and other approaches suited to real-time risk decisioning. Design data pipelines, features, evaluation methods, experiments, and monitoring systems that support reliable production models. Build and improve risk decisioning systems that integrate with other parts of Stripe’s payments stack. Own ambiguous problems from initial analysis and problem definition through technical design, implementation, launch, measurement, and iteration. Collaborate with Engineering, Product, Data Science, and Risk partners across Stripe to turn model improvements into durable product outcomes. Who you are We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. Minimum requirements 6+ years of industry experience building and shipping machine learning models in production. Strong programming skills in Python and experience with common data and machine learning tools, such as SQL, Spark, and XGBoost. Strong knowledge of production machine learning systems, including data pipelines, feature development, model evaluation, deployment, monitoring, and iteration. Experience working with large and complex datasets and applying data analysis, statistics, and experimentation fundamentals. Demonstrated ability to take an open-ended business problem, determine where machine learning can help, and own the solution through production. Strong judgment in selecting practical modeling approaches and evaluating tradeoffs among model performance, system complexity, latency, and business impact. Strong collaboration skills and the ability to work across teams and contribute to peers' success. Preferred qualifications Experience applying machine learning to fraud detection, risk modeling, payment authorization, identity, account security, or another adversarial domain. Experience building real-time, low-latency machine learning or risk decisioning systems at scale. Experience integrating models into production services and designing reliable systems around model outputs. Experience with payments, fintech, digital wallets, or money movement. Strong software engineering skills and experience designing solutions across the machine learning and product stack.",
+      "title": "Machine Learning Engineer, Link",
+      "requisition": "See Opening ID"
+    },
+    "roles": [
+      {
+        "company": "Stripe",
+        "title": "Machine Learning Engineer, Link",
+        "city": "New York City",
+        "country": "US",
+        "skills": [
+          "Python",
+          "SQL",
+          "Spark",
+          "XGBoost"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "greenhouse:stripe",
+      "listing_id": "8333074",
+      "url": "https://stripe.com/jobs/search?gh_jid=8333074",
+      "text": "Company: Stripe\nTitle: Master's Machine Learning Engineer, Intern\nLocation: San Francisco, New York City, Seattle\nWho we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. What you’ll do About the internship Stripe's Applied ML, Data Science, Risk, and Payments organizations are excited to offer Master's machine learning engineering internships for the summer of 2027. This is an exceptional opportunity to contribute to critical projects that directly enhance Stripe's suite of products, focusing on areas such as foundation models used for dozens of tasks e.g. fraud detection, enhanced support, and predicting user behavior. As an intern, you'll tackle challenging problems at the intersection of finance, technology, and data. You'll have the chance to work on creative projects like the Stripe Assistant and the Stripe Foundation Model, which leverage machine learning to revolutionize how businesses interact with financial services and data. Responsibilities Develop and deploy large-scale machine learning systems that drive significant business value across various domains. Engage in the end-to-end process of designing, training, improving, and launching machine learning models. Write production-scale ML models that will be deployed to help Stripe enable economic infrastructure access for a diverse range of businesses globally. Collaborate across teams to incorporate feedback and proactively seek solutions to challenges. Rapidly learn new technologies and approaches, demonstrating a strong ability to ask insightful questions and communicate the status of your work effectively. Who you are Minimum requirements A deep understanding of computer science, obtained through the pursuit of a Master's degree in Computer Science, Machine Learning, or a closely related field, with the expectation of graduating in winter 2027 or spring/summer 2028. Practical experience with programming and machine learning, evidenced by projects, classwork, or research. Familiarity with languages such as Python, Scala, Spark and libraries such as Pandas, NumPy, and Scikit-learn. Expertise in areas of machine learning such as supervised and unsupervised learning techniques, ML operations, and possibly experience in Large Language Models or Reinforcement Learning. Demonstrated ability to work on collaborative projects, with experience in receiving and applying feedback from various stakeholders. A proactive approach to learning unfamiliar systems and a demonstrated ability to understand complex systems independently. Intent to return to the degree-program after the completion of the internship/co-op. Preferred qualifications You Might Also Have: Two years of university education or equivalent experience, with in-depth knowledge in specific domains of machine learning. Published and presented peer-reviewed articles in top-tier venues. Experience in writing high-quality pull requests, maintaining good test coverage, and completing projects with minimal defects. Familiarity with navigating new codebases and managing work across different programming languages. Excellent written communication skills to clearly articulate your work to both team members and wider Stripe audiences. Application requirements Please submit the following with your application: A detailed resume or LinkedIn profile showcasing your work history. Examples of relevant work and your approach to learning, such as GitHub repositories, StackOverflow contributions, or other project portfolios. Join us for an unforgettable summer internship and help shape the future of global commerce. At Stripe, you won't just be working on theoretical projects; you'll make a tangible impact on the world's economic infrastructure.",
+      "title": "Master's Machine Learning Engineer, Intern",
+      "requisition": "See Opening ID"
+    },
+    "roles": [
+      {
+        "company": "Stripe",
+        "title": "Master's Machine Learning Engineer, Intern",
+        "country": "US",
+        "employment_type": "intern",
+        "skills": [
+          "Python",
+          "Scala",
+          "Spark",
+          "pandas",
+          "NumPy",
+          "scikit-learn"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "greenhouse:airbnb",
+      "listing_id": "7755758",
+      "url": "https://careers.airbnb.com/positions/7755758?gh_jid=7755758",
+      "text": "Company: Airbnb\nTitle:  Senior Machine Learning Engineer, Payments\nLocation: Remote-USA\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join: Payments is key for any healthy marketplace, and is just as central to our product at Airbnb. The Payments org at Airbnb is responsible for everything related to settling money in Airbnb’s global marketplace and makes the Payment experience as delightful, magical, intuitive, and easy as possible. At the Payments modeling team, our goal is to empower the mission by introducing intelligences and personalizations that optimize Airbnb’s massive daily transaction volume to best collect payments from guests, distribute payouts to hosts while preventing fraudulent transactions from happening. The Difference You Will Make: As a Senior ML Engineer for Payments, you will be the catalyst that transforms bold AI innovation -  LLMpowered workflow, realtime fraud defenses, and hyperpersonalized checkout flows -  into production systems that make Airbnb Payment experience feel effortless and secure; you’ll architect and own end-to-end solutions at global scale, partner closely with product, software, and operations teams to turn complex requirements into elegant, latencyfirst services, and set the technical standard for model governance, continuous learning, and engineering excellence that elevates our entire payments ecosystem while shaping the company’s broader AI strategy. A Typical Day: Spearhead LLM agents, realtime anomaly detectors, and other breakthrough solutions that solve real-world problems and create product magic. Collaborate with product, engineering, ops, and data science to spot high leverage opportunities, refine AI/ML requirements, make principled architecture choices, and measure business value with clear, data-driven metrics. Design, train, deploy, and operate large-scale AI applications for both batch and streaming workloads, ensuring low latency, high reliability, and continuous improvement via automated monitoring and retraining loops. Mentor and inspire teammates, fostering a collaborative, experimentation-driven environment where cutting edge research meets production excellence and every engineer is empowered to push AI boundaries at Airbnb. Your Expertise: 5+ years of industry experience in applied AI/ML, inclusive MS or PhD in relevant fields. Strong programming (Python/Java) and data engineering skills. Proven mastery of modern AI/LLM workflows — prompt engineering, fine tuning (LoRA, RLHF), hallucination mitigation, safety guardrails, and rigorous online/offline testing to minimize training/inference drift and ensure reliable outcomes. Handson experience with at least three of the following: PyTorch/TensorFlow , scalable inference stacks, vector search, orchestration/MLOps platforms (Kubeflow, Airflow), largescale data streaming & processing (Spark, Ray, Kafka) Demonstrated success designing, deploying, and monitoring production AI systems - e.g. personalization engines, generative content services - complete with drift/cost/latency monitoring, automated retraining triggers, and cross-functional collaboration that translates ambiguous business needs into measurable AI impact. Prior knowledge of AI/ML Applications in the Payments domain is highly desirable Your Location: This position is US - Remote Eligible. The role may include occasional work at an Airbnb office or attendance at offsites, as agreed to with your manager. While the position is Remote Eligible, you must live in a state where Airbnb, Inc. has a registered entity. Click here for the up-to-date list of excluded states. This list is continuously evolving, so please check back with us if the state you live in is on the exclusion list. If your position is employed by another Airbnb entity, your recruiter will inform you what states you are eligible to work from. Our Commitment To Inclusion & Belonging: Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, and to develop the best products, services and solutions. All qualified individuals are encouraged to apply. We strive to also provide a disability inclusive application and interview process. If you are a candidate with a disability and require reasonable accommodation in order to submit an application, please contact us at: reasonableaccommodations@airbnb.com . Please include your full name, the role you’re applying for and the accommodation necessary to assist you with the recruiting process. We ask that you only reach out to us if you are a candidate whose disability prevents you from being able to complete our online application. Equal Employment Opportunity: Airbnb values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Airbnb are considered without regard to race, color, religion, national origin, age, gender, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, gender expression, sexual orientation, or any other legally protected characteristic. How We'll Take Care of You: Our job titles may span more than one career level. The actual base pay is dependent upon many factors, such as: training, transferable skills, work experience, business needs and market demands. The base pay range is subject to change and may be modified in the future. This role may also be eligible for bonus, equity, benefits, and Employee Travel Credits. Pay Range $191,000 — $223,000 USD Reasonable Accommodations: We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role. A Note on Recruiting Scams: Scammers sometimes pose as Airbnb recruiters to get money or personal information from candidates. A few things that will always be true for Airbnb’s hiring process: our open roles are posted on Airbnb’s Career’s Page at careers.airbnb.com, and our recruiters correspond only from @ airbnb.com or @ ext.airbnb.com email addresses. Our recruiters will never ask for your Social Security number, bank account details, passport, or payment app information while you are interviewing.  We’ll also never ask you to pay a fee, send money, deposit or cash a check, or purchase work-related equipment (such as a company laptop) during the interview process. We encourage candidates to remain vigilant of these recruiting scams and not share sensitive information if you do not believe an individual is actually affiliated with Airbnb.",
+      "title": " Senior Machine Learning Engineer, Payments",
+      "requisition": "ONE"
+    },
+    "roles": [
+      {
+        "company": "Airbnb",
+        "title": "Senior Machine Learning Engineer, Payments",
+        "seniority": "senior",
+        "country": "US",
+        "remote_policy": "remote",
+        "salary_min": 191000.0,
+        "salary_max": 223000.0,
+        "currency": "USD",
+        "skills": [
+          "Python",
+          "Java",
+          "LoRA",
+          "RLHF",
+          "PyTorch",
+          "TensorFlow",
+          "Kubeflow",
+          "Airflow",
+          "Spark",
+          "Ray",
+          "Kafka"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "greenhouse:airbnb",
+      "listing_id": "8224032",
+      "url": "https://careers.airbnb.com/positions/8224032?gh_jid=8224032",
+      "text": "Company: Airbnb\nTitle: Senior Staff Data Engineer, Foundational Data\nLocation: United States\nAirbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join: At Airbnb, our mission is to create a world where anyone can belong anywhere. The Foundational Data team builds and operates the high-quality, widely reused datasets that power critical decisions across Airbnb: how visitors are measured from site traffic, how bot traffic is separated from organic traffic, and how cloud costs are attributed to Airbnb services. Our cost dashboards are among the most-used at Airbnb, relied on by technical leads, finance, and executives. Every dollar Airbnb spends running its infrastructure is attributed by models this team owns. We are now building a third pillar, and it puts this team at the forefront of how Airbnb measures AI: the cost, usage, and performance of the models we train and serve ourselves, and of the AI tools our own engineers use every day. When Airbnb asks whether an AI investment is paying off, the answer comes from datasets this team builds. Foundational Data sits inside Cloud Infrastructure and is a deliberate mix of Data Engineers and Analytics Engineers working as one team. The Difference You Will Make: As a Senior Staff Data Engineer, you are the technical leader for this team and the person who sets its direction. This is a hands-on role with no direct reports: you will own the long-term data architecture and you will build against it, from the Airflow-orchestrated pipelines that ingest telemetry, logs, and billing data through to the dimensional models and Minerva definitions that thousands of people at Airbnb reason with. Because we are a mixed DE and AE team, you will work across both disciplines: this role needs data engineering depth, plus enough fluency in metric and dimensional modeling to set direction for the analytics engineering side. Infrastructure intelligence is where you will start, and it is fresh ground. The signals describing our fleets are fragmented across cost, utilization telemetry, service performance, and GPU and model telemetry. Nobody has modeled this coherently yet, and the AI side is the least charted part of all. There is no schema to inherit. You would decide what these datasets are, then bring the rest of the company along. This work carries regular visibility to directors and VPs across Infrastructure and Finance. A Typical Day: Provide technical leadership across the team's data engineering and analytics engineering work, spanning cloud cost, traffic & bots, and infrastructure intelligence Define and own the multi-year data strategy and architecture for Airbnb's foundational data assets, and build the cross-org consensus needed to fund and execute it Own how Airbnb measures its AI: the unit economics of training and serving our own models, GPU fleet utilization, and the cost and adoption of developer AI tooling Design and build the datasets that integrate cost, utilization, performance, and reliability signals across Airbnb's infrastructure fleets, starting from a blank page Stay hands-on in the pipelines and models you architect, close enough to the build to catch the problems design reviews miss Influence and coach a distributed team of Data Engineers and Analytics Engineers, raising the quality bar through design and code review and scaling it by building the frameworks and automated checks other teams adopt Navigate conflicting stakeholder requirements across Infrastructure, Finance, Data Science, and Product Engineering, and land a single definition everyone can build on Identify and eliminate duplication and data fragmentation across the engineering organization, driving deprecation of what your models replace Participate in the team's on-call rotation for the datasets we own Your Expertise: You do not need prior experience with cloud cost, infrastructure, or AI/ML data to succeed here. What we cannot teach is the following. 12+ years of relevant industry experience with a BS/Masters, or 9+ years with a PhD, in data engineering or a closely related field You have designed, built, and operated production data pipelines at large scale, and you write strong SQL and Python. Scala experience is useful but not required You can design a dimensional model and define a metric others will trust, even if analytics engineering has not been your job title You have moved into an unfamiliar data or technical domain and become productive quickly, building enough understanding of the underlying systems to model them well You have been the technical lead on a team or program, setting direction that other senior engineers executed against without formal authority over them, while still writing code yourself You have written the multi-year technical strategy for an area, and got other organizations to fund and deliver against it You have built a data product where no schema or precedent existed, and persuaded other teams to adopt it You have written the document that aligned several teams on a contested technical decision, and you can explain a data model to a finance partner as readily as to an engineer Your Location: position is completely Remote- USA This position is US - Remote Eligible. The role may include occasional work at an Airbnb office or attendance at offsites, as agreed to with your manager. While the position is Remote Eligible, you must live in a state where Airbnb, Inc. has a registered entity. Click here for the up-to-date list of excluded states. This list is continuously evolving, so please check back with us if the state you live in is on the exclusion list. If your position is employed by another Airbnb entity, your recruiter will inform you what states you are eligible to work from. This position is US - Remote Eligible. The role may include occasional work at an Airbnb office or attendance at offsites, as agreed to with your manager. While the position is Remote Eligible, you must live in a state where Airbnb Payments, Inc. (a subsidiary of Airbnb, Inc.) is a registered entity. Approved remote states include: Alabama, California, Florida, Georgia, Illinois, Minnesota, Mississippi, Nevada, New Jersey, New York, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, Texas, and Washington. This list is continuously evolving, so please check back with us if the state you live in is excluded. If your position is employed by another Airbnb entity, your recruiter will inform you what states you are eligible to work from. Our Commitment To Inclusion & Belonging: Airbnb is committed to working with the broadest talent pool possible. We believe diverse ideas foster innovation and engagement, and allow us to attract creatively-led people, and to develop the best products, services and solutions. All qualified individuals are encouraged to apply. We strive to also provide a disability inclusive application and interview process. If you are a candidate with a disability and require reasonable accommodation in order to submit an application, please contact us at: reasonableaccommodations@airbnb.com . Please include your full name, the role you’re applying for and the accommodation necessary to assist you with the recruiting process. We ask that you only reach out to us if you are a candidate whose disability prevents you from being able to complete our online application. Equal Employment Opportunity : Airbnb values diversity & belonging and is proud to be an Equal Employment Opportunity employer. All individuals seeking employment at Airbnb are considered without regard to race, color, religion, national origin, age, gender, sex, marital status, ancestry, physical or mental disability, veteran status, gender identity, gender expression, sexual orientation, or any other legally protected characteristic. How We'll Take Care of You: Our job titles may span more than one career level. The actual base pay is dependent upon many factors, such as: training, transferable skills, work experience, business needs and market demands. The base pay range is subject to change and may be modified in the future. This role may also be eligible for bonus, equity, benefits, and Employee Travel Credits. Pay Range $248,000 — $310,000 USD Reasonable Accommodations: We are committed to providing reasonable accommodations throughout the recruitment process for applicants with disabilities. If you need assistance, or an accommodation, please let your recruiter know once you are contacted about a role. A Note on Recruiting Scams: Scammers sometimes pose as Airbnb recruiters to get money or personal information from candidates. A few things that will always be true for Airbnb’s hiring process: our open roles are posted on Airbnb’s Career’s Page at careers.airbnb.com, and our recruiters correspond only from @ airbnb.com or @ ext.airbnb.com email addresses. Our recruiters will never ask for your Social Security number, bank account details, passport, or payment app information while you are interviewing.  We’ll also never ask you to pay a fee, send money, deposit or cash a check, or purchase work-related equipment (such as a company laptop) during the interview process. We encourage candidates to remain vigilant of these recruiting scams and not share sensitive information if you do not believe an individual is actually affiliated with Airbnb.",
+      "title": "Senior Staff Data Engineer, Foundational Data",
+      "requisition": "ONE"
+    },
+    "roles": [
+      {
+        "company": "Airbnb",
+        "title": "Senior Staff Data Engineer, Foundational Data",
+        "seniority": "staff_plus",
+        "country": "US",
+        "remote_policy": "remote",
+        "salary_min": 248000.0,
+        "salary_max": 310000.0,
+        "currency": "USD",
+        "skills": [
+          "Airflow",
+          "SQL",
+          "Python",
+          "Scala"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "greenhouse:databricks",
+      "listing_id": "8401114002",
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8401114002",
+      "text": "Company: Databricks\nTitle: Staff Machine Learning Engineer \nLocation: San Francisco, California\nP-1504 The Applied AI team at Databricks sits at the forefront of advancing GenAI-powered products. Over the past years, we’ve launched Databricks Assistant , AI/BI Genie , and Agent Bricks working with product teams, and made significant strides in LLM quality for these products. These products are used by 100s of thousands of Databricks users every day. We are tackling challenging problems like code suggestion, error detection and correction, text-to-sql generation, automatic pipeline generation, knowledge QA and many others. As our GenAI products continue to evolve, we are seeking multiple GenAI Engineers from junior levels to more senior levels to drive the next phase of development. In 2025, we will focus on enhancing LLM quality, expanding GenAI capabilities across Databricks products, and strengthening our platform architecture to enable seamless AI interactions at scale. Key Responsibilities Shape the direction of our applied AI areas and intelligence features in our products . Drive the development and deployment of state-of-the-art AI models and systems that directly impact the capabilities and performance of Databricks' products and services (e.g., Databricks Assistant and AI/BI Genie). Develop novel data collection, fine-tuning, and LLM technologies that achieve optimal performance on specific tasks and domains. Design and implement ML pipelines for data preprocessing, feature engineering, model training, hyperparameter tuning, and model evaluation, enabling rapid experimentation and iteration. Work closely with cross-functional teams, including AI researchers, ML engineers, and product teams, to deliver impactful AI solutions that enhance user productivity and satisfaction. Build scalable, reusable backend systems to support GenAI products across the company. Develop robust logging, telemetry, and evaluation harnesses to ensure reliable model performance. What We’re Looking For 2-8 years of machine learning engineering experience in high-velocity, high-growth companies. Alternatively, a strong background in relevant ML research in academia will be considered as an equivalent qualification. Strong track record of working with language modeling technologies. This could include the following: Developing generative and embedding techniques, modern model architectures, fine tuning / pre-training datasets, and evaluation benchmarks. Proficiency in Python, TensorFlow/PyTorch, and scalable ML architectures. Ability to drive end-to-end model development, from research and prototyping to deployment and monitoring. Strong analytical and problem-solving skills, with a passion for improving AI-driven user experiences. Strong coding and software engineering skills, and familiarity with software engineering principles around testing, code reviews and deployment. Experience with LLM fine-tuning, prompt engineering, and retrieval-augmented generation (RAG) is a bonus. Why Join Us? At Databricks, we are building state-of-the-art AI solutions that redefine how users interact with data and our products. You’ll have the opportunity to shape the future of AI-driven products at Databricks, work with cutting-edge models, and collaborate with a world-class team of AI and ML experts. If you're excited about pushing the boundaries of AI in real-world applications, we’d love to hear from you! Please note we are open to employees working from our Mountain View, CA office for this position. Pay Range Transparency Databricks is committed to fair and equitable compensation practices. The pay range(s) for this role is listed below and represents the expected salary range for non-commissionable roles or on-target earnings for commissionable roles.  Actual compensation packages are based on several factors that are unique to each candidate, including but not limited to job-related skills, depth of experience, relevant certifications and training, and specific work location. Based on the factors above, Databricks anticipates utilizing the full width of the range. The total compensation package for this position may also include eligibility for annual performance bonus, equity, and the benefits listed above. For more information regarding which range your location is in visit our page here . Local Pay Range $190,000 — $285,000 USD About Databricks Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT&T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on LinkedIn , X , YouTube , and Instagram . Benefits At Databricks, we strive to provide comprehensive benefits and perks that meet the needs of all of our employees. For specific details on the benefits offered in your region click here . Our Commitment to Diversity and Inclusion At Databricks, we are committed to fostering a diverse and inclusive culture where everyone can excel. We take great care to ensure that our hiring practices are inclusive and meet equal employment opportunity standards. Individuals looking for employment at Databricks are considered without regard to age, color, disability, ethnicity, family or marital status, gender identity or expression, language, national origin, physical and mental ability, political affiliation, race, religion, sexual orientation, socio-economic status, veteran status, and other protected characteristics. Compliance If access to export-controlled technology or source code is required for performance of job duties, it is within Employer's discretion whether to apply for a U.S. government license for such positions, and Employer may decline to proceed with an applicant on this basis alone.",
+      "title": "Staff Machine Learning Engineer ",
+      "requisition": "P-1504"
+    },
+    "roles": [
+      {
+        "company": "Databricks",
+        "title": "Staff Machine Learning Engineer",
+        "seniority": "staff_plus",
+        "country": "US",
+        "salary_min": 190000.0,
+        "salary_max": 285000.0,
+        "currency": "USD",
+        "skills": [
+          "Python",
+          "TensorFlow",
+          "PyTorch"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "greenhouse:figma",
+      "listing_id": "6178851004",
+      "url": "https://boards.greenhouse.io/figma/jobs/6178851004?gh_jid=6178851004",
+      "text": "Company: Figma\nTitle: Data Engineer Intern (2027)\nLocation: San Francisco, CA • New York, NY\nFigma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you're brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you're excited to shape the future of design and collaboration, join us! We are looking for Data Engineering interns who are excited to help scale the systems and pipelines that power decision-making at Figma. As an intern on our data team, you will partner with engineers and analysts to design and build reliable datasets, ensure data quality, and make Figma's data more accessible across the company. This internship will be based out of our San Francisco or New York Hub. What you'll do at Figma: Build, test, and document data pipelines that bring product or business data into Figma’s data warehouse Help design foundational datasets that are trusted, well-documented, and easy to use Optimize pipelines for performance and scalability as Figma grows Partner with cross-functional teammates to understand data needs and deliver solutions Contribute to the tools and practices that make working with data at Figma easier With support from a manager and mentor, you’ll own a scoped project from problem definition through implementation, testing, documentation, and sharing the results. Some projects you could work on: Develop new ETL jobs to integrate product or business data into our warehouse Improve the performance and reliability of core pipelines Build reusable datasets that support experimentation, product and business analytics, or cross-functional stakeholders Document and simplify complex data workflows for broader use We'd love to hear from you if you have: Experience coding in Python or a similar language and writing SQL queries Experience building or working with data pipelines, ETL, or large datasets Curiosity about how data systems work and interest in making them more scalable and reliable Strong communication and collaboration skills Excitement to learn, get feedback, and grow as a data engineer At Figma, one of our values is Grow as you go. We believe in hiring smart, curious people who are excited to learn and develop their skills. If you’re excited about this role but your past experience doesn’t align perfectly with the points outlined in the job description, we encourage you to apply anyways. You may be just the right candidate for this or other roles. Pay Transparency Disclosure This internship role is based in either Figma’s San Francisco or New York hub offices, and has the hourly base pay rate stated below.  Figma also offers interns a housing stipend and travel reimbursement. Figma’s compensation and benefits are subject to change and may be modified in the future. Internship $46 — $46 USD At Figma we celebrate and support our differences. We know employing a team rich in diverse thoughts, experiences, and opinions allows our employees, our product and our community to flourish. Figma is an equal opportunity workplace - we are dedicated to equal employment opportunities regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity/expression, veteran status , or any other characteristic protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. We will work to ensure individuals with disabilities are provided reasonable accommodation to apply for a role, participate in the interview process, perform essential job functions, and receive other benefits and privileges of employment. If you require accommodation, please reach out to accommodations-ext@figma.com . These modifications enable an individual with a disability to have an equal opportunity not only to get a job, but successfully perform their job tasks to the same extent as people without disabilities. Examples of accommodations include but are not limited to: Holding interviews in an accessible location Enabling closed captioning on video conferencing Ensuring all written communication be compatible with screen readers Changing the mode or format of interviews To ensure the integrity of our hiring process and facilitate a more personal connection, we require all candidates keep their cameras on during video interviews. Additionally, if hired you will be required to attend in person onboarding. By applying for this job, the candidate acknowledges and agrees that any personal data contained in their application or supporting materials will be processed in accordance with Figma's Candidate Privacy Notice . Application limits: To help candidates focus on the opportunities most relevant to their skills and experience, Figma limits the number and frequency of applications. These limits apply to all roles: Candidates may submit up to 5 applications during any rolling 30-day period. Candidates may not reapply to the same role while an application is active or within 90 days of receiving a rejection. Once the applicable days has passed, candidates are welcome to apply again.",
+      "title": "Data Engineer Intern (2027)",
+      "requisition": "2569"
+    },
+    "roles": [
+      {
+        "company": "Figma",
+        "title": "Data Engineer Intern (2027)",
+        "country": "US",
+        "currency": "USD",
+        "employment_type": "intern",
+        "skills": [
+          "Python",
+          "SQL"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "lever:palantir",
+      "listing_id": "1b690123-1766-4e75-a0ef-0f58afa864b4",
+      "url": "https://jobs.lever.co/palantir/1b690123-1766-4e75-a0ef-0f58afa864b4",
+      "text": "Company: Palantir\nTitle: Data Engineer - Talent Acquisition Operations\ncommitment: Full-time\nlocation: New York, NY\nteam: Recruiting Operations\nallLocations: ['New York, NY']\nWorkplace type: hybrid\nA World-Changing Company\n \nPalantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.\n\n\nThe Role\nAs a Data Engineer, you will help to build and maintain the data foundations, reporting workflows, and automations that support Recruiting and Hiring Operations. This role will work cross-functionally with Hiring Operations, Recruiters, Data, Security, Privacy, and other technical and non technical partners to turn complex recruiting processes into reliable datasets, dashboards, and operational tools. The ideal candidate enjoys working at the intersection of data engineering and business operations. You will be expected to understand how recruiting workflows generate data and build practical solutions that improve day to day operations.\n\nThis role is well suited for someone who can move fluidly between building a pipeline, debugging an integration, creating a dashboard, documenting an operating procedure, and helping stakeholders understand how to use the resulting tool.\n\nCore Responsibilities: Build, maintain, and improve datasets and pipelines supporting Recruiting Integrate data from systems such as Lever, Workday, Foundry, and other recruiting systems Develop reporting datasets and dashboards for recruiting performance, candidate pipelines, recruiting programs, and operational audits Evaluate existing data integrations for opportunities to reduce latency and implement necessary changes Partner with central Data and platform teams on warehouse connections, schema changes, API behavior, and source-system migrations Support integrations between recruiting systems and internal tools including writeback of data updates Design data access and reporting solutions that respect confidentiality, role-based permissions, and regional or organizational access boundaries Create clear documentation for sensitive workflows and ensure that operational users understand the limitations of the data Proactively identify opportunities to improve reporting and workflows as recruiting processes change Partner with team members, engineering, product and business leaders to understand current user behavior and patterns across our platform Monitor pipelines for stability, suggest and implement efficiency initiatives\nWhat We Value: Proven ability to build and maintain data pipelines, datasets, and analytics data products Hands-on experience with Foundry, Contour, or comparable data and analytics platforms Background working with Recruiting, HR, People, CRM, ATS, or other operational data; Lever experience preferred Proficiency integrating APIs, data warehouses, and SaaS systems Familiarity with workflow automation, writeback processes, and event-driven integrations Working knowledge of data governance, privacy, retention, access controls, and compliance-related workflows\nWhat We Require: Degree in Data Science, Finance, Math, Engineering, Computer Science, Economics, Business or other quantitative fields 1+ years of experience in a data analytical role Expertise in Python and data manipulation to answer complex questions. Experience with pySpark, pandas, or polars is a plus. Strong SQL skills and experience working with relational or structured data. Proficiency with BI tools, SQL, and the organization and analysis of data Fluency in TypeScript, or another general-purpose programming language Ability to create reusable data models, testing frameworks, and data quality checks\nSalary\nThe salary range for this position is estimated to be $100,000 - $145,000/year. Total compensation for this position may also include Restricted Stock units, sign-on bonus and other potential future incentives. Further note that total compensation for this position will be determined by each individual's relevant qualifications, work experience, skills, and other factors. This estimate excludes the value of any potential sign-on bonus; the value of any benefits offered; and the potential future value of any long-term incentives.\n\n\nOur benefits aim to promote health and wellbeing across all areas of Palantirians’ lives. We work to continuously improve our offerings and listen to our community as we design and update them. The list below details our available benefits and some of the perks that can be enjoyed as an employee of Palantir Technologies.\n \nBenefits\n \n•  Employees (and their eligible dependents) can enroll in medical, dental, and vision insurance as well as voluntary life insurance\n•  Employees are automatically covered by Palantir’s basic life, AD&D and disability insurance\n•  Commuter benefits\n•  Take what you need paid time off, not accrual based\n•  2 weeks paid time off built into the end of each year (subject to team and business needs)\n•  10 paid holidays throughout the calendar year\n•  Supportive leave of absence program including time off for military service and medical events\n•  Paid leave for new parents and subsidized back-up care for all parents\n•  Fertility and family building benefits including but not limited to adoption, surrogacy, and preservation\n•  Stipend to help with expenses that come with a new child\n•  Employees can enroll in Palantir’s 401k plan\n \nLife at Palantir\n \nWe want every Palantirian to achieve their best outcomes, that’s why we celebrate individuals’ strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians’ lives is just one of the ways we’re investing in our community. Learn more at Life at Palantir and note that our offerings may vary by region.\n \nIn keeping consistent with Palantir’s values and culture, we believe employees are “better together” and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for “Remote” work on an exceptional basis. If you are applying for one of these roles, you must work from the state in which you are employed. If the posting is specified as Onsite, you are required to work from an office.\n \nIf you want to empower the world's most important institutions, you belong here. Palantir values excellence regardless of background. We are proud to be an Equal Opportunity Employer for all, including but not limited to Veterans and those with disabilities. Palantir is committed to making the application and hiring process accessible to everyone and will provide a reasonable accommodation for those living with a disability. If you need an accommodation for the application or hiring process, please reach out and let us know how we can help.\n \nPlease note that you will never be asked to submit a payment or share financial information to participate in our interview process. If you suspect that you've been contacted by a scammer, we recommend you cease all communication with the individual and consider reporting them to the relevant authorities, such as the US FBI Internet Crime Complaint Center (IC3).\n\nIf you would like to understand more about how your personal data will be processed by Palantir, please see our Privacy Policy.",
+      "title": "Data Engineer - Talent Acquisition Operations",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Palantir",
+        "title": "Data Engineer - Talent Acquisition Operations",
+        "city": "New York",
+        "country": "US",
+        "remote_policy": "hybrid",
+        "salary_min": 100000.0,
+        "salary_max": 145000.0,
+        "employment_type": "full_time",
+        "skills": [
+          "Foundry",
+          "Contour",
+          "Lever",
+          "Python",
+          "PySpark",
+          "pandas",
+          "polars",
+          "SQL",
+          "TypeScript"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "lever:palantir",
+      "listing_id": "721fe5ca-73b8-4223-826e-93a528194821",
+      "url": "https://jobs.lever.co/palantir/721fe5ca-73b8-4223-826e-93a528194821",
+      "text": "Company: Palantir\nTitle: Platform Engineer - Identity Infrastructure\ncommitment: Full-time\nlocation: Palo Alto, CA\nteam: Information Security\nallLocations: ['Palo Alto, CA']\nWorkplace type: hybrid\nA World-Changing Company\n \nPalantir builds the world’s leading software for data-driven decisions and operations. By bringing the right data to the people who need it, our platforms empower our partners to develop lifesaving drugs, forecast supply chain disruptions, locate missing children, and more.\n\n\nThe Role\nAs a Platform Engineer on Palantir's Identity Platform team, you will design, build, and operate secure-by-design identity infrastructure and tooling. You will make identity governance and access management easier and more secure to implement for Palantirians and customers worldwide. As part of Palantir's best-in-class Information Security organization, you will research, implement, and scale innovative solutions that help Palantir stay ahead of a dynamic threat landscape.\n\nYou will help the team build the next-generation identity platform that treats agents and workload identities as first-class principals: the access graph that makes entitlements legible, the policy engine that makes authorization enforceable and auditable, and the token-issuance layer that keeps access short-lived, scoped, and least-privilege by default. Your work will shape the arc of these components from design to production.\n\nYou will join the high-performing Identity Platform team, engineers who are passionate about delivering identity outcomes at scale that reduce risk and friction. The team builds and operates the identity platforms that serve both corporate and production (customer-facing) infrastructure, and the paved-road tooling and secure baselines that teams across Palantir deploy on. Your goal will be to make the secure path the easy path. Your work will directly strengthen the identity substrate beneath Palantir's most critical deployments, from a globally distributed workforce to regulated and air-gapped environments.\n\nCore Responsibilities: Develop automation and tooling for corporate and customer-facing identity platforms Build, secure, and manage geo-redundant containerized services (EKS and ECS) in AWS and Azure Scale the implementation of Single Sign-On (SSO) integrations across multiple Entra ID tenants using infrastructure-as-code frameworks Build tooling to standardize and scale operational workflows across AWS, Azure, and Google Cloud Platform (GCP) Extend the identity platform to non-human identities, treating workloads and AI agents as first-class principals with scoped, short-lived credentials Build the governance layer: an access graph that makes entitlements legible and a policy engine that makes authorization decisions enforceable and auditable Design token-issuance and federation flows that make least-privilege, ephemeral access the default Research and drive adoption of emerging authentication and session security standards (such as device-bound session credentials and continuous access evaluation) in collaboration with Security Engineers Pressure-test designs and partner with Identity Security Engineers to threat model implementations before they ship Partner with Security Compliance Engineers to build services that reduce the cost and complexity of compliance enforcement\nWhat We Value: Technical proficiency in identity protocols (SAML, OIDC, OAuth 2.0, LDAP, Kerberos, FIDO2, WebAuthn) Experience managing identities and governance workflows on platforms such as Entra ID, Keycloak, AWS Cognito, or Okta Experience with policy engines and authorization-as-code, and with relationship-based access modeling or entitlement graph design Experience with token issuance and federation, including OAuth 2.0 token exchange, short-lived credentials, and workload identity federation Non-human identity experience: workload and machine identity (service-to-service authentication, mTLS, workload attestation), plus interest in agentic identity (agents as principals, delegation and on-behalf-of flows, and attribution across a delegation chain)\nWhat We Require: 3+ years of experience in Site Reliability Engineering (SRE), DevOps, software engineering, or an equivalent discipline, with a strong passion for security Experience deploying and operating containerized services (EKS, ECS, or similar) in AWS, Azure, or Google Cloud Experience building and operating production services or APIs, not only automation scripts Expert-level proficiency in a language such as Go (preferred), Python, or TypeScript Experience with infrastructure-as-code (Terraform, Helm, CloudFormation, or similar) An active TS/SCI security clearance, or eligibility and willingness to obtain one\nSalary\nThe salary range for this position is estimated to be $135,000 - $200,000/year. Total compensation for this position may also include Restricted Stock units, sign-on bonus and other potential future incentives. Further note that total compensation for this position will be determined by each individual's relevant qualifications, work experience, skills, and other factors. This estimate excludes the value of any potential sign-on bonus; the value of any benefits offered; and the potential future value of any long-term incentives.\n\n\nOur benefits aim to promote health and wellbeing across all areas of Palantirians’ lives. We work to continuously improve our offerings and listen to our community as we design and update them. The list below details our available benefits and some of the perks that can be enjoyed as an employee of Palantir Technologies.\n \nBenefits\n \n•  Employees (and their eligible dependents) can enroll in medical, dental, and vision insurance as well as voluntary life insurance\n•  Employees are automatically covered by Palantir’s basic life, AD&D and disability insurance\n•  Commuter benefits\n•  Relocation assistance\n•  Take what you need paid time off, not accrual based\n•  2 weeks paid time off built into the end of each year (subject to team and business needs)\n•  10 paid holidays throughout the calendar year\n•  Supportive leave of absence program including time off for military service and medical events\n•  Paid leave for new parents and subsidized back-up care for all parents\n•  Fertility and family building benefits including but not limited to adoption, surrogacy, and preservation\n•  Stipend to help with expenses that come with a new child\n•  Employees can enroll in Palantir’s 401k plan\n \nLife at Palantir\n \nWe want every Palantirian to achieve their best outcomes, that’s why we celebrate individuals’ strengths, skills, and interests, from your first interview to your longterm growth, rather than rely on traditional career ladders. Paying attention to the needs of our community enables us to optimize our opportunities to grow and helps ensure many pathways to success at Palantir. Promoting health and well-being across all areas of Palantirians’ lives is just one of the ways we’re investing in our community. Learn more at Life at Palantir and note that our offerings may vary by region.\n \nIn keeping consistent with Palantir’s values and culture, we believe employees are “better together” and in-person work affords the opportunity for more creative outcomes. Therefore, we encourage employees to work from our offices to foster connectivity and innovation. Many teams do offer hybrid options (WFH a day or two a week), allowing our employees to strike the right trade-off for their personal productivity. Based on business need, there are a few roles that allow for “Remote” work on an exceptional basis. If you are applying for one of these roles, you must work from the state in which you are employed. If the posting is specified as Onsite, you are required to work from an office.\n \nIf you want to empower the world's most important institutions, you belong here. Palantir values excellence regardless of background. We are proud to be an Equal Opportunity Employer for all, including but not limited to Veterans and those with disabilities. Palantir is committed to making the application and hiring process accessible to everyone and will provide a reasonable accommodation for those living with a disability. If you need an accommodation for the application or hiring process, please reach out and let us know how we can help.\n \nPlease note that you will never be asked to submit a payment or share financial information to participate in our interview process. If you suspect that you've been contacted by a scammer, we recommend you cease all communication with the individual and consider reporting them to the relevant authorities, such as the US FBI Internet Crime Complaint Center (IC3).\n\nIf you would like to understand more about how your personal data will be processed by Palantir, please see our Privacy Policy.",
+      "title": "Platform Engineer - Identity Infrastructure",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Palantir",
+        "title": "Platform Engineer - Identity Infrastructure",
+        "city": "Palo Alto",
+        "country": "US",
+        "remote_policy": "hybrid",
+        "salary_min": 135000.0,
+        "salary_max": 200000.0,
+        "employment_type": "full_time",
+        "skills": [
+          "EKS",
+          "ECS",
+          "AWS",
+          "Azure",
+          "Entra ID",
+          "GCP",
+          "SAML",
+          "OIDC",
+          "OAuth 2.0",
+          "LDAP",
+          "Kerberos",
+          "FIDO2",
+          "WebAuthn",
+          "Keycloak",
+          "AWS Cognito",
+          "Okta",
+          "mTLS",
+          "Go",
+          "Python",
+          "TypeScript",
+          "Terraform",
+          "Helm",
+          "CloudFormation"
+        ]
+      }
+    ]
+  },
+  {
+    "posting": {
+      "source": "lever:spotify",
+      "listing_id": "05b8d6ee-0773-4255-b8b9-ae73d74a5ee5",
+      "url": "https://jobs.lever.co/spotify/05b8d6ee-0773-4255-b8b9-ae73d74a5ee5",
+      "text": "Company: Spotify\nTitle: Senior Machine Learning Engineer, Personalization\ncommitment: Permanent\ndepartment: Engineering\nlocation: New York, NY\nteam: Personalization\nallLocations: ['New York, NY']\nWorkplace type: remote\nThe Personalization team makes deciding what to play next easier and more enjoyable for every listener. From Blend to Discover Weekly, we’re behind some of Spotify’s most-loved features. We built them by understanding the world of music and podcasts better than anyone else. Join us and you’ll keep millions of users listening by making great recommendations to each and every one of them. Growlithe is a fast-moving squad within Spotify's Conversation Product Area, focused on bringing emerging Search and agentic experiences to life. We explore, define, build, validate, and optimize new ideas to help listeners discover the content they love. Our work spans personalized Search, music video discovery and ranking, audiobook Search expansion, and the foundations of more social Search experiences. We're looking for a Senior Machine Learning Engineer to help shape the next generation of Search at Spotify. You'll work at the intersection of machine learning, personalization, and product development, turning complex challenges into intuitive discovery experiences for millions of listeners.\nWhat You'll Do: Build and improve machine learning models that make Spotify Search more relevant, personalized, and engaging for listeners. Develop and optimize ranking and backend retrieval systems that help listeners discover music, videos, audiobooks, and other content. Explore emerging AI and agentic approaches to create more intuitive and conversational Search experiences. Design, implement, and evaluate machine learning solutions, taking ideas from early experimentation through production. Partner with engineers, product managers, designers, and researchers to identify opportunities and deliver meaningful improvements to Search. Use experimentation, data analysis, and performance metrics to understand model behavior, validate hypotheses, and improve the listener experience. Contribute to scalable machine learning infrastructure and engineering practices that support reliable, high-quality Search experiences. Share knowledge, challenge assumptions constructively, and help shape the technical direction of machine learning within the squad.\nWho You Are: You have experience building, deploying, and improving machine learning systems in production environments. You have a strong understanding of machine learning approaches for information retrieval, search ranking, recommendation systems, or personalization. You are proficient in Python and comfortable working with modern machine learning frameworks and data processing tools. You have experience and a desire to lean into backend engineering at Spotify scale. You understand how to design and evaluate experiments, interpret model performance, and translate technical findings into product improvements. You have experience working with large-scale datasets and understand the challenges of building reliable, scalable machine learning systems. You are curious about emerging AI technologies, including large language models and agentic systems, and interested in their potential to improve discovery experiences. You enjoy working across disciplines, communicating technical ideas clearly, and learning from different perspectives. You are comfortable navigating ambiguity, taking ownership of complex challenges, and balancing experimentation with practical delivery.\nWhere You'll Be: This role is based in Eastern Standard Time We offer you the flexibility to work where you work best! There will be some in person meetings, but still allows for flexibility to work from home.\nSpotify is an equal opportunity employer. You are welcome at Spotify for who you are, no matter where you come from, what you look like, or what’s playing in your headphones. Our platform is for everyone, and so is our workplace. The more voices we have represented and amplified in our business, the more we will all thrive, contribute, and be forward-thinking! So bring us your personal experience, your perspectives, and your background. It’s in our differences that we will find the power to keep revolutionizing the way the world listens.\n \nAt Spotify, we are passionate about inclusivity and making sure our entire recruitment process is accessible to everyone. We have ways to request reasonable accommodations during the interview process and help assist in what you need. If you need accommodations at any stage of the application or interview process, please let us know - we’re here to support you in any way we can.",
+      "title": "Senior Machine Learning Engineer, Personalization",
+      "requisition": null
+    },
+    "roles": [
+      {
+        "company": "Spotify",
+        "title": "Senior Machine Learning Engineer, Personalization",
+        "seniority": "senior",
+        "city": "New York",
+        "country": "US",
+        "remote_policy": "remote",
+        "skills": [
+          "Python"
+        ]
+      }
+    ]
+  }
+]
